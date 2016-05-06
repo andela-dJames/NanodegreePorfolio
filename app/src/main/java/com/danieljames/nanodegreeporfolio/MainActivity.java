@@ -8,6 +8,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -42,20 +43,26 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goToPopularMovies(View view) {
+        Toast.makeText(getApplicationContext(), getString(R.string.popular_movies_message), Toast.LENGTH_LONG).show();
     }
 
     public void goToStockHawk(View view) {
+        Toast.makeText(getApplicationContext(), getString(R.string.stock_hawk_message), Toast.LENGTH_LONG).show();
     }
 
     public void goToCapstone(View view) {
+        Toast.makeText(getApplicationContext(), getString(R.string.capstone_message), Toast.LENGTH_LONG).show();
     }
 
     public void goToGoUbiquitous(View view) {
+        Toast.makeText(getApplicationContext(), getString(R.string.ubiquitous_message), Toast.LENGTH_LONG).show();
     }
 
     public void goToMakeYourAppMaterial(View view) {
+        Toast.makeText(getApplicationContext(), getString(R.string.make_your_app_material_message), Toast.LENGTH_LONG).show();
     }
 
     public void goToBuildItBigger(View view) {
+        Toast.makeText(getApplicationContext(), getString(R.string.build_it_bigger_message), Toast.LENGTH_LONG).show();
     }
 }
